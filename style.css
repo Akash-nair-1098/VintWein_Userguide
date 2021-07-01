@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+    .navbar{
+        background: #ebe8e8;
+    }
+
+   
+.main{
+    margin-top: 5%;
+}
+
+.heading{
+    margin-left: 6.5%;
+}
+
+    .heading  b{
+        font-size: 5vh;
+        text-align: center;
+    }
+    .heading b span{
+        color: #771633;
+    }
+    .caption{
+        font-size: 2.5vh;
+     
+    }
+    .userguide{
+        font-size: 150%;
+    }
+    .downloadnow {
+        width: 100%;
+        margin-top: 15%;
+     }
+    
+    @media screen and (max-width:900px) {
+        .heading{
+            margin-left: 5%;
+        }
+        
+            .heading  b{
+                font-size: 120%;
+                text-align: center;
+            }
+            .heading b span{
+                color: #771633;
+            }
+            .caption{
+                font-size: 50%;
+             
+            }
+            .userguide{
+                font-size: 100%;
+            }
+            .downloadnow {
+                width: 120%;
+                margin-top: 15%;
+             }
+    }
