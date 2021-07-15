@@ -33,18 +33,29 @@
         font-size: 150%;
     }
     .footer{
-        background: #6a6a6a;
-        padding: 2% 2%;
+        background: #bbbbbb;
+        padding: 1%;
         font-size: 90%;
-        color: white;
+       
+        text-align: center;
     }
     .footer a{
         text-decoration: none;
-        color: white;
+        color: #771633;
     }
     .footer a:hover{
-        color: white;
+        color: #771633;
     }
+    .heading a{
+        text-decoration: none;
+        color: black;
+    }
+.heading a:hover{
+    color: black;
+}
+
+
+
     @media screen and (max-width:900px) {
         .heading{
             margin-left: 5%;
@@ -65,9 +76,10 @@
                 font-size: 100%;
             }
             .footer{
-                background: #6a6a6a;
-                padding: 2% 2%;
+                background: #bbbbbb;
+                padding: 1%;
                 font-size: 60%;
-                color: white;
+               
+                text-align: center;
             }
     }
